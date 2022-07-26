@@ -1,0 +1,14 @@
+# Built binaries
+build/
+
+# MacOS environment
+.DS_Store
+
+# generated outputs & data
+# ignore all subfolders in asset/ but
+# keep track of the following directories
+asset/*/
+!asset/archive 
+!asset/data 
+!asset/docs/
+
