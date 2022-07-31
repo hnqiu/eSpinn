@@ -27,7 +27,8 @@ cmake -DPYTHON_EXECUTABLE="$HOME/anaconda3/bin/python" .. # if package is compil
 - [setup](game/README.md)
 - `python tasks/sim_flappy.py -t`
 
-https://user-images.githubusercontent.com/28779070/181024313-cab8a9cc-ba9e-4e0d-9e8b-2f8d3e7f2e6d.mp4
+https://user-images.githubusercontent.com/28779070/182014642-b0b06a78-212d-4d45-b222-3146e83b8c26.mp4
+
 
 
 ## Citation
