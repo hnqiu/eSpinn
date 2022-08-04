@@ -22,13 +22,26 @@ cmake -DPYTHON_EXECUTABLE="$HOME/anaconda3/bin/python" .. # if package is compil
 ```
 
 
+## Prerequisite
+
+- Boost serialization
+  ```sh
+  # should have already been available on Ubuntu, otherwise:
+  sudo apt install libboost-all-dev
+  ```
+- [pybind11](https://github.com/pybind/pybind11)
+  ```sh
+  conda install -c conda-forge pybind11
+  ```
+  Refer to [this post](https://hnqiu.github.io/2020/05/19/pybind11/) for more details on installing pybind11.
+
+
 ## Example: Running Flappy Bird
 
 - [setup](game/README.md)
 - `python tasks/sim_flappy.py -t`
 
 https://user-images.githubusercontent.com/28779070/182014642-b0b06a78-212d-4d45-b222-3146e83b8c26.mp4
-
 
 
 ## Citation
