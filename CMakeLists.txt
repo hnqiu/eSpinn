@@ -19,7 +19,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # add_compile_options(-std=c++11)
 
 # set target Python version
-set(PYTHON_EXECUTABLE="$HOME/anaconda3/bin/python")
+# set(PYTHON_EXECUTABLE="$HOME/anaconda3/bin/python")
 
 set(eSpinn_COMPILE_FLAGS "-ffriend-injection")
 # set(eSpinn_COMPILE_FLAGS "${eSpinn_COMPILE_FLAGS} -Wall")
