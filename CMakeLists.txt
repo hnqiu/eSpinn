@@ -4,8 +4,6 @@ project(espinn)
 
 # find Boost packages, min_version 1.58
 find_package(Boost 1.58 REQUIRED COMPONENTS serialization)
-# find Pybind11
-find_package(pybind11 REQUIRED)
 
 include_directories( ${Boost_INCLUDE_DIRS} )
 include_directories(

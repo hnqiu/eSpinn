@@ -22,13 +22,7 @@ if(USE_IN_MATLAB)
     message(STATUS "${YELLOW}Building package eSpinn "
         "in large mcmodel for use in MATLAB${ColorReset}")
 else()
-    ## build PyeSpinn as MODULE lib
-    # set Pybind CXX option
-    set(PYBIND11_CPP_STANDARD -std=c++11)
-    # build lib
-    pybind11_add_module(PyeSpinn PyModule/PybindWrapper.cpp )
-    target_link_libraries(PyeSpinn PRIVATE eSpinn)
-    message(STATUS "${YELLOW}Building package eSpinn & PyeSpinn${ColorReset}")
+    message(STATUS "${YELLOW}Building package eSpinn${ColorReset}")
 endif(USE_IN_MATLAB)
 
 # clear the cache var
