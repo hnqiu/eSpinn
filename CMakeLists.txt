@@ -45,7 +45,7 @@ set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${eSpinn_COMPILE_FLAGS}")
 
 add_subdirectory(src)
 # add_subdirectory(test)
-# add_subdirectory(tasks)
+add_subdirectory(tasks)
 
 # clear the cache var
 unset(USE_IN_MATLAB CACHE)

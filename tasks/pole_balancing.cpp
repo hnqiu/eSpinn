@@ -48,8 +48,8 @@ int eSpinn::pole_balancing(const bool &markov) {
         inp_num = 3;
     }
     // use lif net if markov
-    // auto org = new Organism<LifNetwork>(netID(1), inp_num, 0, 1, gen);
-    auto org = new Organism<HybridNetwork>(netID(1), inp_num, 0, 1, gen);
+    auto org = new Organism<LifNetwork>(netID(1), inp_num, 0, 1, gen);
+    // auto org = new Organism<HybridNetwork>(netID(1), inp_num, 0, 1, gen);
     auto pop = new Population(org, params::pop_size);
     pop->init();
     pop->archive(Pole::CARTPOLE + std::to_string(gen) + Pole::POP_EXT);
